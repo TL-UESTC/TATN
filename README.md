@@ -22,4 +22,4 @@ Use pre-trained source model to generate pseudo labels for target data:
 `python run.py --mode train --mkdir [] --source_data_path --source_temp --target_data_path --target_temp --epochs --batch_size`  
 (check run.py for more arguments)   
 * To test a model  
-`python run.py --mode test --mkdir [] --test_set [] --target_temp []`  
+`<python run.py --mode test --mkdir [] --test_set [] --target_temp []>`  
