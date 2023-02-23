@@ -5,7 +5,7 @@ Abstract:State of charge (SOC) estimation plays an important role in battery man
 # Usage
 * conda environment   
 `conda env create -f env.yaml`
-* Dataset
+* Dataset  
 more dataset for LIBs can be downloaded from [HERE](https://docs.google.com/spreadsheets/d/10w5yXdQtlQjTTS3BxPP233CiiBScIXecUp2OQuvJ_JI/edit#gid=0)
 * Data processing  
 put your data fold in normalized_data/  
@@ -22,4 +22,4 @@ Use pre-trained source model to generate pseudo labels for target data:
 `python run.py --mode train --mkdir [] --source_data_path --source_temp --target_data_path --target_temp --epochs --batch_size`  
 (check run.py for more arguments)   
 * To test a model  
-* `python run.py --mode test --mkdir [] --test_set [] --target_temp []`  
+`python run.py --mode test --mkdir [] --test_set [] --target_temp []`  
