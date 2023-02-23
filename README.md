@@ -7,11 +7,11 @@ Abstract:State of charge (SOC) estimation plays an important role in battery man
 `conda env create -f env.yaml`
 * Dataset
 more dataset for LIBs can be downloaded from [HERE](https://docs.google.com/spreadsheets/d/10w5yXdQtlQjTTS3BxPP233CiiBScIXecUp2OQuvJ_JI/edit#gid=0)
-* Data processing
+* Data processing  
 put your data fold in normalized_data/  
 then run this code  
-`python normalized_data/dataprocess.py`    
-* To pretrain a source model  
+`python normalized_data/dataprocess.py`      
+* To pretrain a source model    
 `python run.py --mode pretrain --mkdir [res fold] --source_data_path [] --source_temp [] --epochs --batch_size`   
 (check run.py for more arguments)  
 The model is saved in run/res fold/saved_model/best.pt  
